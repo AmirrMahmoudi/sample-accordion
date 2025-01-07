@@ -26,7 +26,7 @@ const Accordion = ({ questions }) => {
             >
               <span>{item.question}</span>
               <span className="text-lg font-semibold">
-                {item.answer === index ? "-" : "+"}
+                {activeIndex === index ? "-" : "+"}
               </span>
             </button>
 
